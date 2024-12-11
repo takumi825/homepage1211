@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学園祭の思い出</title>
+    <style>
+        body{
+            background-color: rgb(248, 247, 161);
+        }
+        .title{
+            text-align: center;
+            background-color: rgb(255, 153, 0);
+        }
+        .items{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            text-align: center;
+        }
+        @media(min-width: 1024px){
+            main{
+                max-width: 1000px;
+                justify-content: center;
+            }
+            .item{
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            img{
+                width: 150px;
+            }
+        }
+    </style>
+</head>
+<body id="top">
+    <!--ヘッダー-->
+    <header class="header"></header>
+    <!--ヘッダーここまで-->
+    <h1 class="title">学園祭</h1>
+    <!--メイン-->
+    <main>
+        <div class="items">
+            <div class="item">
+                <img src="img/IMG_1402.jpg" alt="ポテトです">
+                <p>ポテトです</p>
+            </div>
+            <div class="item">
+                <img src="img/IMG_1422.JPG" alt="友達とメイド">
+                <p>友達とメイド</p>
+            </div>
+            <div>
+                <img src="img/IMG_1423.JPG" alt="友達とメイド その２">
+                <p>友達とメイド その２</p>
+            </div>
+            <div class="item">
+                <img src="img/IMG_1419.jpg" alt="みんなでメイドカフェ">
+                <p>みんなでメイドカフェ</p>
+            </div>
+            <div class="item">
+                <img src="img/IMG_1417.JPG" alt="みんなで銃撃戦">
+                <p>みんなで銃撃戦</p>
+            </div>
+        </div>
+        <video width="500" height="350" controls>
+            <source src="img/IMG_1426.MOV" type="video/mp4">
+        </video>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.779029365501!2d139.71449977579002!3d35.73165262257101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d6f3f07b76b%3A0x89f2c0ef0e9ee79f!2z5a2m5qCh5rOV5Lq66Zu75rOi5a2m5ZyS5p2x5Lqs6Zu75a2Q5bCC6ZaA5a2m5qCh!5e0!3m2!1sja!2sjp!4v1731040283362!5m2!1sja!2sjp" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+        </div>
+    </main>
+    <!--メインはここまで-->
+    <!--フッター-->
+    <footer>D130 midorikawa takumi      （機材の不調により画像が荒くてすみません）</footer>
+    <!--フッターここまで-->
+</body>
+</html>
